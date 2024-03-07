@@ -27,6 +27,6 @@ public class MyStack<E>{
     }
 
     public boolean isEmpty() {
-        return delegate.isEmpty();
+        return this.isEmpty();
     }
 }
